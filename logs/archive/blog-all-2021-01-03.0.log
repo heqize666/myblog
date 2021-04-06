@@ -1,0 +1,896 @@
+2021-01-03 14:05:01.064 INFO  [main]com.jg.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-N5FMSO0 with PID 16632 (F:\it\myBlog\blog\target\classes started by heqize in F:\it\myBlog\blog)
+2021-01-03 14:05:01.072 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-01-03 14:05:01.080 INFO  [main]com.jg.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2021-01-03 14:05:03.943 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-03 14:05:04.134 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 133ms. Found 4 MongoDB repository interfaces.
+2021-01-03 14:05:04.916 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:05.165 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.jg.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$996ed7f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:05.232 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:05.244 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7fc2166e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:05.249 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$6699bab0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:05.253 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2021-01-03 14:05:05.366 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:05.389 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:05.426 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:07.434 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-01-03 14:05:07.435 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:07.556 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.037 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.062 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.073 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.101 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.104 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.jg.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.109 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.110 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userMapper' of type [com.sun.proxy.$Proxy89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.160 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#13cc0b90' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.164 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#13cc0b90' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.225 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#5d9618f2' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.229 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#501957bf' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.234 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#501957bf' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.274 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.data.mongodb-org.springframework.boot.autoconfigure.mongo.MongoProperties' of type [org.springframework.boot.autoconfigure.mongo.MongoProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.276 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.data.mongo.MongoDbFactoryDependentConfiguration' of type [org.springframework.boot.autoconfigure.data.mongo.MongoDbFactoryDependentConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.281 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.data.mongo.MongoDbFactoryConfiguration' of type [org.springframework.boot.autoconfigure.data.mongo.MongoDbFactoryConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.284 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration' of type [org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.489 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[47.102.115.146:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-01-03 14:05:08.490 INFO  [main]org.mongodb.driver.cluster.info:71 -Adding discovered server 47.102.115.146:27017 to client view of cluster
+2021-01-03 14:05:08.576 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mongo' of type [com.mongodb.MongoClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.608 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mongoDbFactory' of type [org.springframework.data.mongodb.core.SimpleMongoDbFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.617 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.data.mongo.MongoDataConfiguration' of type [org.springframework.boot.autoconfigure.data.mongo.MongoDataConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.672 INFO  [cluster-ClusterId{value='5ff15e944821242c2f06e30f', description='null'}-47.102.115.146:27017]org.mongodb.driver.connection.info:71 -Opened connection [connectionId{localValue:1, serverValue:1981}] to 47.102.115.146:27017
+2021-01-03 14:05:08.705 INFO  [cluster-ClusterId{value='5ff15e944821242c2f06e30f', description='null'}-47.102.115.146:27017]org.mongodb.driver.cluster.info:71 -Monitor thread successfully connected to server with description ServerDescription{address=47.102.115.146:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 19]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=21418800}
+2021-01-03 14:05:08.706 INFO  [cluster-ClusterId{value='5ff15e944821242c2f06e30f', description='null'}-47.102.115.146:27017]org.mongodb.driver.cluster.info:71 -Discovered cluster type of STANDALONE
+2021-01-03 14:05:08.843 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mongoCustomConversions' of type [org.springframework.data.mongodb.core.convert.MongoCustomConversions] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:08.934 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mongoMappingContext' of type [org.springframework.data.mongodb.core.mapping.MongoMappingContext] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.019 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mappingMongoConverter' of type [org.springframework.data.mongodb.core.convert.MappingMongoConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.111 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mongoTemplate' of type [org.springframework.data.mongodb.core.MongoTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.599 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'commentDao' of type [org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.612 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'commentDao' of type [com.sun.proxy.$Proxy106] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.676 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#2f60cbf2' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.677 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#2f60cbf2' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.679 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#1f26b992' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.680 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#642c72cf' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.681 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean '(inner bean)#642c72cf' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.696 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'collectionDao' of type [org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.697 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'collectionDao' of type [com.sun.proxy.$Proxy107] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.719 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userServiceImpl' of type [com.jg.blog.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.722 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.jg.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.783 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:09.810 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-03 14:05:10.508 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 1000 (http)
+2021-01-03 14:05:10.525 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-1000"]
+2021-01-03 14:05:10.526 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-01-03 14:05:10.526 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-03 14:05:10.528 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-01-03 14:05:10.529 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-01-03 14:05:10.529 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-03 14:05:10.529 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-03 14:05:11.655 INFO  [main]org.apache.catalina.core.AprLifecycleListener.log:173 -OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-01-03 14:05:11.898 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-01-03 14:05:11.898 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 10672 ms
+2021-01-03 14:05:19.441 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-1000"]
+2021-01-03 14:05:19.482 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 1000 (http) with context path ''
+2021-01-03 14:05:19.486 INFO  [main]com.jg.blog.BlogApplication.logStarted:61 -Started BlogApplication in 20.365 seconds (JVM running for 23.434)
+2021-01-03 14:11:42.196 INFO  [http-nio-1000-exec-9]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-03 14:11:42.196 INFO  [http-nio-1000-exec-9]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-01-03 14:11:42.221 INFO  [http-nio-1000-exec-9]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 25 ms
+2021-01-03 14:11:42.457 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /admin/login
+2021-01-03 14:11:42.457 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:11:42.458 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:11:42.460 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.AdminController.login
+2021-01-03 14:11:42.461 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]
+2021-01-03 14:11:42.553 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select name, header, signature, username, password from bl_admin where username = ? 
+2021-01-03 14:11:42.610 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: admin(String)
+2021-01-03 14:11:42.686 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2021-01-03 14:11:42.715 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 258
+2021-01-03 14:11:42.828 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"token":"83AC0E2F663C9913EF13D02782458B2B"},"msg":"操作成功！"}
+2021-01-03 14:11:42.835 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:11:42.840 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)](String), 1(Integer), null, POST(String), 258(Long), {"code":20000,"data":{"token":"83AC0E2F663C9913EF13D02782458B2B"},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:11:42.884 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:11:43.023 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /admin/info
+2021-01-03 14:11:43.024 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:11:43.024 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:11:43.024 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.AdminController.getLoginInfo
+2021-01-03 14:11:43.024 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:11:43.024 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 1
+2021-01-03 14:11:43.029 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}
+2021-01-03 14:11:43.032 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:11:43.034 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/info(String), [](String), 1(Integer), null, GET(String), 1(Long), {"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:11:43.044 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:11:43.169 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/getList
+2021-01-03 14:11:43.170 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:11:43.170 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:11:43.170 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.getList
+2021-01-03 14:11:43.170 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:11:43.181 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.getTypeList.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count from bl_type where deleted = 0 and enable = 1 
+2021-01-03 14:11:43.183 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.getTypeList.debug:159 -==> Parameters: 
+2021-01-03 14:11:43.190 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.getTypeList.debug:159 -<==      Total: 1
+2021-01-03 14:11:43.191 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 22
+2021-01-03 14:11:43.195 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:11:43.200 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:11:43.202 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/getList(String), [](String), 1(Integer), null, GET(String), 22(Long), {"code":20000,"data":[{"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:11:43.207 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:11:46.383 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:11:46.384 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:11:46.384 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:11:46.384 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:11:46.385 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:11:46.389 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:11:46.389 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:11:46.391 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:11:46.391 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 8
+2021-01-03 14:11:46.392 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:11:46.397 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:11:46.398 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 8(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:11:46.409 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:11:48.662 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:11:48.663 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:11:48.663 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:11:48.663 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:11:48.664 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:11:48.692 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:11:48.693 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:11:48.695 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:11:48.697 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 35
+2021-01-03 14:11:48.697 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:11:48.704 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:11:48.705 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 35(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:11:48.705 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /blog/getByPage
+2021-01-03 14:11:48.706 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:11:48.706 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:11:48.706 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.BlogController.getByPage
+2021-01-03 14:11:48.707 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:11:48.715 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:11:48.773 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image, blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 limit ?, ? 
+2021-01-03 14:11:48.774 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:11:48.788 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 0
+2021-01-03 14:11:48.790 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2021-01-03 14:11:48.790 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:11:48.795 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:11:48.798 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 93
+2021-01-03 14:11:48.802 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}
+2021-01-03 14:11:48.806 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:11:48.807 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 93(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:11:48.813 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:11:50.806 WARN  [http-nio-1000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /about/getByPage
+2021-01-03 14:11:50.865 ERROR [http-nio-1000-exec-5]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-03 14:11:50.868 ERROR [http-nio-1000-exec-5]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 25 common frames omitted
+2021-01-03 14:11:52.730 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /blog/getByPage
+2021-01-03 14:11:52.730 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:11:52.731 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:11:52.731 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.BlogController.getByPage
+2021-01-03 14:11:52.731 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:11:52.732 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:11:52.733 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:11:52.733 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:11:52.733 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:11:52.733 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:11:52.737 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image, blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 limit ?, ? 
+2021-01-03 14:11:52.737 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:11:52.739 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 0
+2021-01-03 14:11:52.739 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:11:52.740 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:11:52.740 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2021-01-03 14:11:52.740 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:11:52.742 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:11:52.744 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 14
+2021-01-03 14:11:52.744 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}
+2021-01-03 14:11:52.745 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:11:52.746 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 14
+2021-01-03 14:11:52.746 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:11:52.749 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:11:52.751 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 14(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:11:52.752 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:11:52.753 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 14(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:11:52.761 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:11:52.764 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:20.358 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /comment/getByPage
+2021-01-03 14:12:20.359 ERROR [http-nio-1000-exec-10]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-03 14:12:20.360 ERROR [http-nio-1000-exec-10]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 25 common frames omitted
+2021-01-03 14:12:23.092 WARN  [http-nio-1000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /about/getByPage
+2021-01-03 14:12:23.093 ERROR [http-nio-1000-exec-9]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-03 14:12:23.093 ERROR [http-nio-1000-exec-9]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 25 common frames omitted
+2021-01-03 14:12:24.904 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /blog/getByPage
+2021-01-03 14:12:24.905 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:12:24.905 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:24.905 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.BlogController.getByPage
+2021-01-03 14:12:24.905 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:12:24.911 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image, blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 limit ?, ? 
+2021-01-03 14:12:24.911 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:12:24.915 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 0
+2021-01-03 14:12:24.916 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2021-01-03 14:12:24.916 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:12:24.918 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:12:24.919 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 15
+2021-01-03 14:12:24.920 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}
+2021-01-03 14:12:24.923 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:24.924 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 15(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:24.934 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:24.961 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:12:24.962 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:12:24.963 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:24.963 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:12:24.963 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:12:24.968 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:12:24.969 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:12:24.970 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:12:24.971 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 10
+2021-01-03 14:12:24.972 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:12:24.975 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:24.977 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 10(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:24.987 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:27.042 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:12:27.042 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:12:27.043 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:27.043 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:12:27.044 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:12:27.048 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:12:27.049 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:12:27.051 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:12:27.052 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 10
+2021-01-03 14:12:27.053 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:12:27.057 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:27.058 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 10(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:27.068 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:29.042 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /admin/getAdmin
+2021-01-03 14:12:29.042 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:12:29.043 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:29.043 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.AdminController.getAdmin
+2021-01-03 14:12:29.043 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:12:29.048 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select id, name, header, signature, comment, username from bl_admin limit 1 
+2021-01-03 14:12:29.050 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2021-01-03 14:12:29.052 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -<==      Total: 1
+2021-01-03 14:12:29.053 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 11
+2021-01-03 14:12:29.053 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"id":1,"name":"he","username":"admin"},"msg":"操作成功！"}
+2021-01-03 14:12:29.057 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:29.058 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getAdmin(String), [](String), 1(Integer), null, GET(String), 11(Long), {"code":20000,"data":{"id":1,"name":"he","username":"admin"},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:29.063 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:35.655 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /user/getByPage
+2021-01-03 14:12:35.656 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:12:35.656 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:35.656 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.UserController.getByPage
+2021-01-03 14:12:35.656 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:12:35.664 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.UserMapper.getByPage.debug:159 -==>  Preparing: select user_id, username, name, sex, header, nickname, user_email, created_time, update_time from bl_user where deleted = 0 limit ?, ? 
+2021-01-03 14:12:35.665 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.UserMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:12:35.679 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.UserMapper.getByPage.debug:159 -<==      Total: 1
+2021-01-03 14:12:35.683 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.UserMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_user where deleted = 0 
+2021-01-03 14:12:35.684 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.UserMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:12:35.686 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.UserMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:12:35.688 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 33
+2021-01-03 14:12:35.691 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:04:02","name":"hqz","nickname":"鲜肉","updateTime":"2020-12-24 11:04:02","userId":1,"username":"he"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}
+2021-01-03 14:12:35.696 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:35.697 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /user/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 33(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:04:02","name":"hqz","nickname":"鲜肉","updateTime":"2020-12-24 11:04:02","userId":1,"username":"he"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:35.705 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:42.706 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /user/get/1
+2021-01-03 14:12:42.706 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:12:42.706 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:42.707 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.UserController.get
+2021-01-03 14:12:42.707 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[1]
+2021-01-03 14:12:42.711 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.UserMapper.getById.debug:159 -==>  Preparing: select user_id, username, name, sex, header, nickname, user_email, version from bl_user where user_id = ? and deleted = 0 
+2021-01-03 14:12:42.712 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.UserMapper.getById.debug:159 -==> Parameters: 1(Integer)
+2021-01-03 14:12:42.715 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.UserMapper.getById.debug:159 -<==      Total: 1
+2021-01-03 14:12:42.715 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 9
+2021-01-03 14:12:42.716 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"name":"hqz","nickname":"鲜肉","userId":1,"username":"he","version":1},"msg":"操作成功！"}
+2021-01-03 14:12:42.720 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:42.721 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /user/get/1(String), [1](String), 1(Integer), null, GET(String), 9(Long), {"code":20000,"data":{"name":"hqz","nickname":"鲜肉","userId":1,"username":"he","version":1},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:43.138 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:46.850 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /user/update
+2021-01-03 14:12:46.851 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : PUT
+2021-01-03 14:12:46.851 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:46.851 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.UserController.update
+2021-01-03 14:12:46.851 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[User(userId=1, username=he, password=null, name=hqz, sex=1, header=null, nickname=鲜肉, userEmail=null, createdTime=null, updateTime=null, version=1, deleted=null)]
+2021-01-03 14:12:46.856 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.UserMapper.update.debug:159 -==>  Preparing: update bl_user set version = version + 1 ,username = ? ,name = ? ,sex = ? ,nickname = ? where user_id = ? and version = ? 
+2021-01-03 14:12:46.857 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.UserMapper.update.debug:159 -==> Parameters: he(String), hqz(String), 1(Integer), 鲜肉(String), 1(Integer), 1(Integer)
+2021-01-03 14:12:46.866 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.UserMapper.update.debug:159 -<==    Updates: 1
+2021-01-03 14:12:46.867 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 17
+2021-01-03 14:12:46.867 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"msg":"修改成功！"}
+2021-01-03 14:12:46.870 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:46.871 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /user/update(String), [User(userId=1, username=he, password=null, name=hqz, sex=1, header=null, nickname=鲜肉, userEmail=null, createdTime=null, updateTime=null, version=1, deleted=null)](String), 1(Integer), null, PUT(String), 17(Long), {"code":20000,"msg":"修改成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:46.876 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:46.939 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /user/getByPage
+2021-01-03 14:12:46.940 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:12:46.940 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:46.940 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.UserController.getByPage
+2021-01-03 14:12:46.940 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=1, totalCount=1, list=[User(userId=1, username=he, password=null, name=hqz, sex=null, header=null, nickname=鲜肉, userEmail=null, createdTime=2020-12-24 11:04:02, updateTime=2020-12-24 11:04:02, version=null, deleted=null)], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:12:46.988 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.UserMapper.getByPage.debug:159 -==>  Preparing: select user_id, username, name, sex, header, nickname, user_email, created_time, update_time from bl_user where deleted = 0 limit ?, ? 
+2021-01-03 14:12:46.989 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.UserMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:12:46.990 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.UserMapper.getByPage.debug:159 -<==      Total: 1
+2021-01-03 14:12:46.996 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.UserMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_user where deleted = 0 
+2021-01-03 14:12:46.997 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.UserMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:12:46.998 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.UserMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:12:46.999 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 60
+2021-01-03 14:12:47.000 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:04:02","name":"hqz","nickname":"鲜肉","sex":1,"updateTime":"2021-01-03 14:12:46","userId":1,"username":"he"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}
+2021-01-03 14:12:47.003 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:47.273 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /user/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=1, totalCount=1, list=[User(userId=1, username=he, password=null, name=hqz, sex=null, header=null, nickname=鲜肉, userEmail=null, createdTime=2020-12-24 11:04:02, updateTime=2020-12-24 11:04:02, version=null, deleted=null)], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 60(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:04:02","name":"hqz","nickname":"鲜肉","sex":1,"updateTime":"2021-01-03 14:12:46","userId":1,"username":"he"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:47.282 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:55.828 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /admin/getAdmin
+2021-01-03 14:12:55.829 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:12:55.829 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:55.829 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.AdminController.getAdmin
+2021-01-03 14:12:55.829 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:12:55.834 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select id, name, header, signature, comment, username from bl_admin limit 1 
+2021-01-03 14:12:55.835 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2021-01-03 14:12:55.837 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -<==      Total: 1
+2021-01-03 14:12:55.839 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 11
+2021-01-03 14:12:55.839 INFO  [http-nio-1000-exec-10]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"id":1,"name":"he","username":"admin"},"msg":"操作成功！"}
+2021-01-03 14:12:55.843 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:55.844 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getAdmin(String), [](String), 1(Integer), null, GET(String), 11(Long), {"code":20000,"data":{"id":1,"name":"he","username":"admin"},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:55.854 DEBUG [http-nio-1000-exec-10]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:12:56.733 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /user/getByPage
+2021-01-03 14:12:56.734 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:12:56.734 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:12:56.734 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.UserController.getByPage
+2021-01-03 14:12:56.734 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:12:56.739 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.UserMapper.getByPage.debug:159 -==>  Preparing: select user_id, username, name, sex, header, nickname, user_email, created_time, update_time from bl_user where deleted = 0 limit ?, ? 
+2021-01-03 14:12:56.740 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.UserMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:12:56.742 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.UserMapper.getByPage.debug:159 -<==      Total: 1
+2021-01-03 14:12:56.746 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.UserMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_user where deleted = 0 
+2021-01-03 14:12:56.746 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.UserMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:12:56.747 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.UserMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:12:56.748 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 15
+2021-01-03 14:12:56.748 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:04:02","name":"hqz","nickname":"鲜肉","sex":1,"updateTime":"2021-01-03 14:12:46","userId":1,"username":"he"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}
+2021-01-03 14:12:56.753 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:12:56.754 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /user/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 15(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:04:02","name":"hqz","nickname":"鲜肉","sex":1,"updateTime":"2021-01-03 14:12:46","userId":1,"username":"he"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":1,"totalPage":1},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:12:56.763 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:01.334 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /admin/getAdmin
+2021-01-03 14:13:01.334 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:13:01.335 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:01.335 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.AdminController.getAdmin
+2021-01-03 14:13:01.335 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:13:01.339 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==>  Preparing: select id, name, header, signature, comment, username from bl_admin limit 1 
+2021-01-03 14:13:01.339 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -==> Parameters: 
+2021-01-03 14:13:01.341 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.AdminMapper.getAdmin.debug:159 -<==      Total: 1
+2021-01-03 14:13:01.341 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 7
+2021-01-03 14:13:01.342 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"id":1,"name":"he","username":"admin"},"msg":"操作成功！"}
+2021-01-03 14:13:01.345 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:01.346 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getAdmin(String), [](String), 1(Integer), null, GET(String), 7(Long), {"code":20000,"data":{"id":1,"name":"he","username":"admin"},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:01.356 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:24.534 WARN  [http-nio-1000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /about/getByPage
+2021-01-03 14:13:24.535 ERROR [http-nio-1000-exec-2]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-03 14:13:24.536 ERROR [http-nio-1000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 25 common frames omitted
+2021-01-03 14:13:28.880 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /blog/getByPage
+2021-01-03 14:13:28.880 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:13:28.880 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:28.880 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.BlogController.getByPage
+2021-01-03 14:13:28.881 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:13:28.885 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image, blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 limit ?, ? 
+2021-01-03 14:13:28.886 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:13:28.893 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 0
+2021-01-03 14:13:28.894 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2021-01-03 14:13:28.894 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:13:28.895 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:13:28.897 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 17
+2021-01-03 14:13:28.897 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}
+2021-01-03 14:13:28.900 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:28.901 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 17(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:28.906 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:28.928 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:13:28.928 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:13:28.929 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:28.929 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:13:28.929 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:13:28.933 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:13:28.933 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:13:28.934 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:13:28.935 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 7
+2021-01-03 14:13:28.935 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:13:28.939 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:28.939 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 7(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:28.949 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:31.898 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:13:31.898 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:13:31.898 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:31.898 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:13:31.899 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:13:31.902 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:13:31.903 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:13:31.906 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:13:31.907 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 9
+2021-01-03 14:13:31.907 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:13:31.911 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:31.912 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 9(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:31.922 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:34.877 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /blog/getByPage
+2021-01-03 14:13:34.877 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:13:34.877 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:34.877 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.BlogController.getByPage
+2021-01-03 14:13:34.878 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:13:34.882 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image, blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 limit ?, ? 
+2021-01-03 14:13:34.882 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:13:34.883 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 0
+2021-01-03 14:13:34.884 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2021-01-03 14:13:34.885 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:13:34.887 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:13:34.888 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 11
+2021-01-03 14:13:34.888 INFO  [http-nio-1000-exec-5]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}
+2021-01-03 14:13:34.892 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:34.893 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 11(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:34.902 DEBUG [http-nio-1000-exec-5]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:34.934 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:13:34.935 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:13:34.936 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:34.936 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:13:34.937 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:13:34.941 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:13:34.941 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:13:34.943 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:13:34.943 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 9
+2021-01-03 14:13:34.944 INFO  [http-nio-1000-exec-7]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:13:34.947 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:34.948 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 9(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:34.957 DEBUG [http-nio-1000-exec-7]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:38.665 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /log/getByPage
+2021-01-03 14:13:38.665 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:13:38.666 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:38.666 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.LogController.getByPage
+2021-01-03 14:13:38.666 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:13:38.673 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -==>  Preparing: select log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time from bl_log limit ?, ? 
+2021-01-03 14:13:38.674 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:13:38.679 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -<==      Total: 10
+2021-01-03 14:13:38.684 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_log 
+2021-01-03 14:13:38.684 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:13:38.685 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:13:38.686 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 21
+2021-01-03 14:13:38.689 INFO  [http-nio-1000-exec-6]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:06:23","logId":1,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":26566,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:06:42","logId":2,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":16,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:09:13","logId":3,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":127310,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:09:32","logId":4,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"4FF04EE365817DD68B215F95968DAC30\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":5320,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:10:55","logId":5,"logIp":"192.168.69.137","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":1,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 11:24:28","logId":6,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":20,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:26:31","logId":7,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":10396,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:31","logId":8,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"325CFAD36A27B9B55A812F518E476D4C\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":16783,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:43","logId":9,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"070B5FECB1528984D48B1C5BF38EB338\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:43","logId":10,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":185,"totalPage":19},"msg":"操作成功！"}
+2021-01-03 14:13:38.693 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:38.694 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /log/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 21(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:06:23","logId":1,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":26566,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:06:42","logId":2,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":16,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:09:13","logId":3,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":127310,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:09:32","logId":4,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"4FF04EE365817DD68B215F95968DAC30\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":5320,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:10:55","logId":5,"logIp":"192.168.69.137","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":1,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 11:24:28","logId":6,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":20,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:26:31","logId":7,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":10396,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:31","logId":8,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"325CFAD36A27B9B55A812F518E476D4C\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":16783,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:43","logId":9,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"070B5FECB1528984D48B1C5BF38EB338\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:43","logId":10,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":185,"totalPage":19},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:38.708 DEBUG [http-nio-1000-exec-6]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:50.171 WARN  [http-nio-1000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /music/getByPage
+2021-01-03 14:13:50.174 ERROR [http-nio-1000-exec-10]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-03 14:13:50.175 ERROR [http-nio-1000-exec-10]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jg.blog.utils.ShiroUtils.getLoginUser(ShiroUtils.java:25)
+	at com.jg.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:47)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 25 common frames omitted
+2021-01-03 14:13:52.326 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /log/getByPage
+2021-01-03 14:13:52.326 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:13:52.326 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:52.327 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.LogController.getByPage
+2021-01-03 14:13:52.327 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:13:52.330 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -==>  Preparing: select log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time from bl_log limit ?, ? 
+2021-01-03 14:13:52.331 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:13:52.338 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -<==      Total: 10
+2021-01-03 14:13:52.343 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_log 
+2021-01-03 14:13:52.343 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:13:52.344 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:13:52.345 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 19
+2021-01-03 14:13:52.346 INFO  [http-nio-1000-exec-9]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:06:23","logId":1,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":26566,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:06:42","logId":2,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":16,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:09:13","logId":3,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":127310,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:09:32","logId":4,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"4FF04EE365817DD68B215F95968DAC30\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":5320,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:10:55","logId":5,"logIp":"192.168.69.137","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":1,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 11:24:28","logId":6,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":20,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:26:31","logId":7,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":10396,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:31","logId":8,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"325CFAD36A27B9B55A812F518E476D4C\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":16783,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:43","logId":9,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"070B5FECB1528984D48B1C5BF38EB338\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:43","logId":10,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":186,"totalPage":19},"msg":"操作成功！"}
+2021-01-03 14:13:52.350 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:52.351 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /log/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 19(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-12-24 11:06:23","logId":1,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":26566,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:06:42","logId":2,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":16,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:09:13","logId":3,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":127310,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:09:32","logId":4,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"4FF04EE365817DD68B215F95968DAC30\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":5320,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:10:55","logId":5,"logIp":"192.168.69.137","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":1,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 11:24:28","logId":6,"logIp":"192.168.69.137","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":20,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:26:31","logId":7,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":40002,\"msg\":\"用户名或密码错误！\"}","logStatus":1,"logTime":10396,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:31","logId":8,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"325CFAD36A27B9B55A812F518E476D4C\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":16783,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:43","logId":9,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"070B5FECB1528984D48B1C5BF38EB338\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:28:43","logId":10,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":186,"totalPage":19},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:52.361 DEBUG [http-nio-1000-exec-9]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:58.023 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /log/getByPage
+2021-01-03 14:13:58.024 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:13:58.024 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:58.024 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.LogController.getByPage
+2021-01-03 14:13:58.024 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=2, pageSize=10, totalPage=19, totalCount=186, list=[Log(logId=1, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=26566, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:06:23), Log(logId=2, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=16, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:06:42), Log(logId=3, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=127310, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:09:13), Log(logId=4, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=5320, logResult={"code":20000,"data":{"token":"4FF04EE365817DD68B215F95968DAC30"},"msg":"操作成功！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:09:32), Log(logId=5, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=1, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:10:55), Log(logId=6, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)], logStatus=1, logMessage=null, logMethod=POST, logTime=20, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:24:28), Log(logId=7, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)], logStatus=1, logMessage=null, logMethod=POST, logTime=10396, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:26:31), Log(logId=8, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=16783, logResult={"code":20000,"data":{"token":"325CFAD36A27B9B55A812F518E476D4C"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:28:31), Log(logId=9, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=11, logResult={"code":20000,"data":{"token":"070B5FECB1528984D48B1C5BF38EB338"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:28:43), Log(logId=10, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=2, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:28:43)], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:13:58.028 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -==>  Preparing: select log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time from bl_log limit ?, ? 
+2021-01-03 14:13:58.029 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -==> Parameters: 10(Integer), 10(Integer)
+2021-01-03 14:13:58.033 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -<==      Total: 10
+2021-01-03 14:13:58.038 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_log 
+2021-01-03 14:13:58.038 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:13:58.039 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:13:58.040 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 17
+2021-01-03 14:13:58.040 INFO  [http-nio-1000-exec-8]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":2,"index":10,"list":[{"createdTime":"2020-12-24 11:31:21","logId":11,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"id\":1,\"name\":\"he\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":10,"logUrl":"/admin/getAdmin"},{"createdTime":"2020-12-24 11:33:21","logId":12,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 11:35:21","logId":13,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"070B5FECB1528984D48B1C5BF38EB338\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:36:13","logId":14,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"070B5FECB1528984D48B1C5BF38EB338\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:40:29","logId":15,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":3,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 13:39:45","logId":16,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":17,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 13:50:56","logId":17,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":17,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 13:52:43","logId":18,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":12,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 13:52:51","logId":19,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":3,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:01:47","logId":20,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":187,"totalPage":19},"msg":"操作成功！"}
+2021-01-03 14:13:58.043 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:58.044 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /log/getByPage(String), [Page(currentPage=2, pageSize=10, totalPage=19, totalCount=186, list=[Log(logId=1, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=26566, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:06:23), Log(logId=2, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=16, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:06:42), Log(logId=3, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=he, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=127310, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:09:13), Log(logId=4, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=5320, logResult={"code":20000,"data":{"token":"4FF04EE365817DD68B215F95968DAC30"},"msg":"操作成功！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:09:32), Log(logId=5, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=1, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:10:55), Log(logId=6, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)], logStatus=1, logMessage=null, logMethod=POST, logTime=20, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=192.168.69.137, createdTime=2020-12-24 11:24:28), Log(logId=7, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)], logStatus=1, logMessage=null, logMethod=POST, logTime=10396, logResult={"code":40002,"msg":"用户名或密码错误！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:26:31), Log(logId=8, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=16783, logResult={"code":20000,"data":{"token":"325CFAD36A27B9B55A812F518E476D4C"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:28:31), Log(logId=9, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=11, logResult={"code":20000,"data":{"token":"070B5FECB1528984D48B1C5BF38EB338"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:28:43), Log(logId=10, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=2, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:28:43)], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 17(Long), {"code":20000,"data":{"currentPage":2,"index":10,"list":[{"createdTime":"2020-12-24 11:31:21","logId":11,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"id\":1,\"name\":\"he\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":10,"logUrl":"/admin/getAdmin"},{"createdTime":"2020-12-24 11:33:21","logId":12,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 11:35:21","logId":13,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"070B5FECB1528984D48B1C5BF38EB338\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:36:13","logId":14,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"070B5FECB1528984D48B1C5BF38EB338\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 11:40:29","logId":15,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":3,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 13:39:45","logId":16,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":17,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 13:50:56","logId":17,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":17,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 13:52:43","logId":18,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":12,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 13:52:51","logId":19,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":3,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:01:47","logId":20,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":187,"totalPage":19},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:58.055 DEBUG [http-nio-1000-exec-8]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:13:59.334 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /log/getByPage
+2021-01-03 14:13:59.334 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:13:59.334 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:13:59.334 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.LogController.getByPage
+2021-01-03 14:13:59.335 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=3, pageSize=10, totalPage=19, totalCount=187, list=[Log(logId=11, logUrl=/admin/getAdmin, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=10, logResult={"code":20000,"data":{"id":1,"name":"he","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:31:21), Log(logId=12, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=2, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:33:21), Log(logId=13, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=11, logResult={"code":20000,"data":{"token":"070B5FECB1528984D48B1C5BF38EB338"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:35:21), Log(logId=14, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=11, logResult={"code":20000,"data":{"token":"070B5FECB1528984D48B1C5BF38EB338"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:36:13), Log(logId=15, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=3, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:40:29), Log(logId=16, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=17, logResult={"code":20000,"data":{"token":"8112AEB78469053EA6B3408AFC842E6F"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 13:39:45), Log(logId=17, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=17, logResult={"code":20000,"data":{"token":"8112AEB78469053EA6B3408AFC842E6F"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 13:50:56), Log(logId=18, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=12, logResult={"code":20000,"data":{"token":"8112AEB78469053EA6B3408AFC842E6F"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 13:52:43), Log(logId=19, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=3, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 13:52:51), Log(logId=20, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=2, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 14:01:47)], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:13:59.339 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -==>  Preparing: select log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time from bl_log limit ?, ? 
+2021-01-03 14:13:59.340 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -==> Parameters: 20(Integer), 10(Integer)
+2021-01-03 14:13:59.343 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.getByPage.debug:159 -<==      Total: 10
+2021-01-03 14:13:59.347 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_log 
+2021-01-03 14:13:59.348 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:13:59.349 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:13:59.350 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 16
+2021-01-03 14:13:59.350 INFO  [http-nio-1000-exec-2]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":3,"index":20,"list":[{"createdTime":"2020-12-24 14:06:39","logId":21,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":13,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 14:06:39","logId":22,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:06:52","logId":23,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":13,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 14:06:52","logId":24,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":3,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:07:54","logId":25,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":41,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 14:08:03","logId":26,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:08:12","logId":27,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 14:20:38","logId":28,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":3,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:20:39","logId":29,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":4,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:24:20","logId":30,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"id\":1,\"name\":\"he\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":30,"logUrl":"/admin/getAdmin"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":188,"totalPage":19},"msg":"操作成功！"}
+2021-01-03 14:13:59.354 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:13:59.355 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /log/getByPage(String), [Page(currentPage=3, pageSize=10, totalPage=19, totalCount=187, list=[Log(logId=11, logUrl=/admin/getAdmin, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=10, logResult={"code":20000,"data":{"id":1,"name":"he","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:31:21), Log(logId=12, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=2, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:33:21), Log(logId=13, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=11, logResult={"code":20000,"data":{"token":"070B5FECB1528984D48B1C5BF38EB338"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:35:21), Log(logId=14, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=11, logResult={"code":20000,"data":{"token":"070B5FECB1528984D48B1C5BF38EB338"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:36:13), Log(logId=15, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=3, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 11:40:29), Log(logId=16, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=17, logResult={"code":20000,"data":{"token":"8112AEB78469053EA6B3408AFC842E6F"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 13:39:45), Log(logId=17, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=17, logResult={"code":20000,"data":{"token":"8112AEB78469053EA6B3408AFC842E6F"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 13:50:56), Log(logId=18, logUrl=/admin/login, logParams=[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)], logStatus=1, logMessage=null, logMethod=POST, logTime=12, logResult={"code":20000,"data":{"token":"8112AEB78469053EA6B3408AFC842E6F"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 13:52:43), Log(logId=19, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=3, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 13:52:51), Log(logId=20, logUrl=/admin/info, logParams=[], logStatus=1, logMessage=null, logMethod=GET, logTime=2, logResult={"code":20000,"data":{"name":"he","password":"","username":"admin"},"msg":"操作成功！"}, logIp=127.0.0.1, createdTime=2020-12-24 14:01:47)], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 16(Long), {"code":20000,"data":{"currentPage":3,"index":20,"list":[{"createdTime":"2020-12-24 14:06:39","logId":21,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":13,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 14:06:39","logId":22,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:06:52","logId":23,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":13,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 14:06:52","logId":24,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":3,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:07:54","logId":25,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":41,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 14:08:03","logId":26,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":2,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:08:12","logId":27,"logIp":"127.0.0.1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=123456)]","logResult":"{\"code\":20000,\"data\":{\"token\":\"8112AEB78469053EA6B3408AFC842E6F\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":11,"logUrl":"/admin/login"},{"createdTime":"2020-12-24 14:20:38","logId":28,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":3,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:20:39","logId":29,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"name\":\"he\",\"password\":\"\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":4,"logUrl":"/admin/info"},{"createdTime":"2020-12-24 14:24:20","logId":30,"logIp":"127.0.0.1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":20000,\"data\":{\"id\":1,\"name\":\"he\",\"username\":\"admin\"},\"msg\":\"操作成功！\"}","logStatus":1,"logTime":30,"logUrl":"/admin/getAdmin"}],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":188,"totalPage":19},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:13:59.368 DEBUG [http-nio-1000-exec-2]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:15:38.749 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:15:38.751 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:15:38.753 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:15:38.755 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:15:38.756 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:15:41.260 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:15:41.261 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:15:41.263 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:15:41.264 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 31565
+2021-01-03 14:15:41.265 INFO  [http-nio-1000-exec-4]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:15:41.269 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:15:41.272 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 31565(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:15:41.282 DEBUG [http-nio-1000-exec-4]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:17:03.667 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /blog/getByPage
+2021-01-03 14:17:03.668 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : POST
+2021-01-03 14:17:03.669 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:17:03.671 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.BlogController.getByPage
+2021-01-03 14:17:03.671 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)]
+2021-01-03 14:17:03.676 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==>  Preparing: select blog_id, blog_title, blog_image, blog_goods, blog_read, blog_collection, blog_remark, blog_comment, blog_source, created_time, update_time,type_name from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 limit ?, ? 
+2021-01-03 14:17:03.677 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -==> Parameters: 0(Integer), 10(Integer)
+2021-01-03 14:17:03.678 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.BlogMapper.getByPage.debug:159 -<==      Total: 0
+2021-01-03 14:17:03.679 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==>  Preparing: select count(*) from bl_blog as b inner join bl_type as t on type_id = blog_type where t.deleted = 0 and b.deleted = 0 
+2021-01-03 14:17:03.680 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -==> Parameters: 
+2021-01-03 14:17:03.681 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.BlogMapper.getCountByPage.debug:159 -<==      Total: 1
+2021-01-03 14:17:03.682 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 11560
+2021-01-03 14:17:16.209 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:108 -请求地址 : /type/listBack
+2021-01-03 14:17:17.764 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:109 -请求方式 : GET
+2021-01-03 14:17:17.770 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:112 -IP : 192.168.10.11
+2021-01-03 14:17:17.770 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:114 -方法 : com.jg.blog.controller.TypeController.list
+2021-01-03 14:17:17.770 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.printRequestLog:116 -请求参数：[]
+2021-01-03 14:17:17.769 INFO  [http-nio-1000-exec-1]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}
+2021-01-03 14:17:27.067 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable from bl_type where deleted = 0 
+2021-01-03 14:17:27.072 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:17:27.072 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /blog/getByPage(String), [Page(currentPage=1, pageSize=10, totalPage=0, totalCount=0, list=[], params={}, sortColumn=null, sortMethod=asc)](String), 1(Integer), null, POST(String), 11560(Long), {"code":20000,"data":{"currentPage":1,"index":0,"list":[],"pageSize":10,"params":{},"sortMethod":"asc","totalCount":0,"totalPage":0},"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:17:27.072 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2021-01-03 14:17:27.075 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2021-01-03 14:17:27.078 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAround:63 -耗时 : 23362
+2021-01-03 14:17:32.805 INFO  [http-nio-1000-exec-3]com.jg.blog.aspect.RequestAspect.doAfterReturning:77 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}
+2021-01-03 14:17:32.808 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-01-03 14:17:32.809 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 23362(Long), {"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":6,"typeName":"java基础知识"}],"msg":"操作成功！"}(String), 192.168.10.11(String)
+2021-01-03 14:17:32.810 DEBUG [http-nio-1000-exec-1]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:17:32.891 DEBUG [http-nio-1000-exec-3]com.jg.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2021-01-03 14:18:57.168 INFO  [SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2021-01-03 14:18:57.178 INFO  [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed

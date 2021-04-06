@@ -1,0 +1,4 @@
+2021-03-29 20:34:57.501 DEBUG [main]com.jg.blog.BlogApplicationTests.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-03-29 20:35:53.778 DEBUG [main]com.jg.blog.BlogApplicationTests.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-03-29 20:37:44.365 DEBUG [main]com.jg.blog.BlogApplicationTests.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2021-03-29 20:41:13.770 DEBUG [main]com.jg.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
